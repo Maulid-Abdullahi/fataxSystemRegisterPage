@@ -1,0 +1,32 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence"-->
+<!--             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence-->
+<!--              http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">-->
+<!--    <persistence-unit name="customer" transaction-type="RESOURCE_LOCAL">-->
+<!--        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
+<!--        <class>customer.Customer</class>-->
+
+<!--        <properties>-->
+<!--            &lt;!&ndash; Driver for DB database &ndash;&gt;-->
+<!--            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />-->
+<!--            &lt;!&ndash; URL for DB &ndash;&gt;-->
+<!--            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tracom?useSSL=false&amp;serverTimezone=UTC" />-->
+<!--            &lt;!&ndash; Username &ndash;&gt;-->
+<!--            <property name="javax.persistence.jdbc.user" value="root" />-->
+<!--            &lt;!&ndash; Password &ndash;&gt;-->
+<!--            <property name="javax.persistence.jdbc.password" value="" />-->
+
+<!--            &lt;!&ndash; Defines the SQL dialect used in Hiberante's application &ndash;&gt;-->
+<!--&lt;!&ndash;            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect "/>&ndash;&gt;-->
+<!--            &lt;!&ndash; Defines the SQL data Hiberante's application &ndash;&gt;-->
+<!--            <property name="hibernate.show_sql" value="true"/>-->
+
+<!--&lt;!&ndash;        <property name = "javax.persistence.jdbc.driver" value = "com.mysql.cj.jdbc.Driver" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name = "javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tracom?useSSL=false" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name = "javax.persistence.jdbc.user" value = "root" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name = "javax.persistence.jdbc.password" value = "Mclass#64" />&ndash;&gt;-->
+
+<!--        </properties>-->
+<!--    </persistence-unit>-->
+<!--</persistence>-->
