@@ -29,7 +29,7 @@ public class hibernate {
         properties.setProperty(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
         properties.setProperty(Environment.URL, "jdbc:mysql://localhost:3306/tracom?useSSL=false&serverTimezone=UTC");
         properties.setProperty(Environment.USER, "root");
-        properties.setProperty(Environment.PASS, "");
+        properties.setProperty(Environment.PASS, "Mclass#64");
         properties.setProperty(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
         properties.setProperty(Environment.SHOW_SQL, "true");
         properties.setProperty(Environment.HBM2DDL_AUTO, "update");

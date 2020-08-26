@@ -41,10 +41,12 @@ public class saveEntities {
         School school = new School();
         school.setId(3);
         school.setName("Tracom Academy");
+        school.setStudent("Maulid");
         school.setContact(new Contact());
-        school.getContact().setEmail("maulidabdullahi@tracom.com");
+        school.getContact().setEmail("maulidabdullahi3@tracom.com");
 
         int schoolId = (Integer) session.save(school);
+
 
         Student student = new Student();
         student.setPerson(new Person());
@@ -56,13 +58,13 @@ public class saveEntities {
 
 
 
-        student.getPerson().setName("Mamamy");
-        student.getPerson().setGender(Gender.FEMALE);
-        student.getPerson().setIdNo("1234");
+        student.getPerson().setName("Laflo");
+        student.getPerson().setGender(Gender.MALE);
+        student.getPerson().setIdNo("908");
 
         student.setContact(new Contact());
-        student.getContact().setEmail("Mamamy@tracom.com");
-        student.getContact().setAddress("0124:1804 Nairobi");
+        student.getContact().setEmail("Laflo@tracom.com");
+        student.getContact().setAddress("180490 Nairobi");
         session.save(student);
 
         tx.commit();

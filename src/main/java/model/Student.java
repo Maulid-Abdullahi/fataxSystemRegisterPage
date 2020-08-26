@@ -22,6 +22,7 @@ public class Student extends baseEntity {
 
 
 
+
     @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private School School;
 

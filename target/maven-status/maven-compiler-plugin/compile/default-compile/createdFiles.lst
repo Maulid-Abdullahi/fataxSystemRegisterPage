@@ -1,5 +1,0 @@
-register\RegisterServlet.class
-register\DBConnection.class
-register\RegisterBean.class
-register\RegisterDao.class
-hibernateHelper\hibernate.class
